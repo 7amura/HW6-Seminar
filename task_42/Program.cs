@@ -21,9 +21,12 @@ string numDouble = " ";
 // string numDoubleRev = " ";
 while(true)
 {
-    int res = num % 2;
+    int res = num % 2;  
+    // res = 45%2 = 1; --> 22%2 = 0
     numDouble = res + numDouble;
+    // " " = 1 + " ";
     num /= 2;
+    // num = 45/2 = 22;
     if(num == 0) break;
 }
 Console.Write(numDouble);
