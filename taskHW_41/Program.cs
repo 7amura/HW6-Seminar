@@ -4,18 +4,23 @@
 // 1, -7, 567, 89, 223-> 3
 
 // Console.Write("Введите элемнты M: ");
-// int[] arr = Array.ConvertAll(Console.ReadLine()!).Split(' ', ',');(int.Parse);
+// int[] arr = Array.ConvertAll(Console.ReadLine().Split(' ', ','), int.Parse);
+
 // int count = 0;
- 
-// for (int i = 0; i < arr.Length; i++)
+// void CountNum(int[] array)
 // {
-//     if (arr[i] > 0)
+// for (int i = 0; i < array.Length; i++)
+// {
+//     if (array[i] > 0)
 //     {
 //         count++;
 //     }
 // }
- 
 // Console.WriteLine($"Кол-во элементов > 0: {count}");
+// }
+// CountNum(arr);
+
+
 
 Console.WriteLine("Введите элемнты M: ");
 string[] list = (Console.ReadLine()!).Split(' ', ',');
